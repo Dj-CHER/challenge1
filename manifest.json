@@ -1,0 +1,19 @@
+{
+    "name": "KYO Mail Response Generator",
+    "description": "Inject Your Custom JavaScript And CSS To Any Website.",
+    "version": "0.0.0.1",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+            "matches": [
+                "https://*.google.com/*"
+            ],
+            "js": [
+                "app.js"
+            ]
+        }
+    ],
+    "icons": {
+        "1": "kyo.png"
+      }
+}
