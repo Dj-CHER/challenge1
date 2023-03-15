@@ -72,7 +72,7 @@ window.addEventListener('load', function () {
                         function () {
 
 
-                            var OPENAI_API_KEY = "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";
+                            var OPENAI_API_KEY = "";
                             var ohttp = new XMLHttpRequest();
                             ohttp.open("POST", "https://api.openai.com/v1/completions");
 
